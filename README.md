@@ -9,7 +9,7 @@ This project explores a unique intersection of **number theory** and **machine l
 Here's a LaTeX document that details the math behind the idea:
 [Prime_Exponents.pdf](https://github.com/user-attachments/files/19527342/Prime_Exponents.pdf)
 
-> **Note:** Mathematically, this is a **free ℤ-module**, not a vector space over a field. We use the term **"vector"** throughout this project for readability and connection to machine learning conventions.
+
 
 ---
 

@@ -35,3 +35,6 @@ pip install pandas numpy sympy matplotlib
 3. Adjust vector length, number of samples, and exponent range as needed
 
 The dataset will be saved as `prime_exponent_dataset.csv` and visualizations will display inline.
+
+Please feel free to reach out with any thoughts, questions, or constructive feedback:
+[LinkedIn][www.linkedin.com/in/dbbrewer]

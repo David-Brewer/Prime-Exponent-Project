@@ -6,11 +6,8 @@ ML project exploring the relationship between integers and the module space form
 
 This project explores a unique intersection of **number theory** and **machine learning**: representing integers as tuples of prime exponents (what we call **prime exponent vectors**) and investigating whether a machine learning model can learn the underlying structure of multiplication from these representations.
 
-Every positive integer can be uniquely factored into a product of prime powers:
-\[
-n = p_1^{e_1} \cdot p_2^{e_2} \cdot \ldots \cdot p_k^{e_k}
-\]
-Fixing an order on the primes, we encode each integer as a vector of exponents \( \vec{e} \in \mathbb{Z}^k \). In this space, multiplication becomes addition, and division becomes subtraction — turning multiplicative arithmetic into linear structure.
+Here's a LaTeX document that details the math behind the idea:
+[Prime_Exponents.pdf](https://github.com/user-attachments/files/19527342/Prime_Exponents.pdf)
 
 > **Note:** Mathematically, this is a **free ℤ-module**, not a vector space over a field. We use the term **"vector"** throughout this project for readability and connection to machine learning conventions.
 
@@ -22,7 +19,9 @@ The goal is to train a machine learning model to learn the mapping: prime expone
 
 ## Getting Started
 
+
 ### Files
+
 - `prime_exponent_dataset.pdf` – PDF version of the main notebook
 - `prime_exponent_dataset.csv` – Sample output dataset
 - `prime_exponent_dataset.ipynb` - Jupyter notebook containing Python code for generating the dataset

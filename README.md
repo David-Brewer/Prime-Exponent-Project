@@ -2,7 +2,7 @@
 ML project exploring the relationship between integers and the module space formed on the exponents of prime factors.  Is there another way of finding an integer's prime factors without explicitly factoring the integer?
 # Prime Exponent Module – Learning Arithmetic Structure with Machine Learning
 
-##Overview
+## Overview
 
 This project explores a unique intersection of **number theory** and **machine learning**: representing integers as tuples of prime exponents (what we call **prime exponent vectors**) and investigating whether a machine learning model can learn the underlying structure of multiplication from these representations.
 
@@ -13,7 +13,7 @@ Here's a LaTeX document that details the math behind the idea:
 
 ---
 
-##Goal
+## Goal
 
 The goal is to train a machine learning model to learn the mapping: prime exponent vector -> integer.  The catch is we want the ML model to learn the mapping *without* performing any arithmetic operations.  We are attempting to sidestep the enormous hurdle of factoring large integers.
 
